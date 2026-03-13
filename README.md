@@ -28,6 +28,14 @@ pruning ratios.
 
 ## Implementation details
 
+\begin{equation}
+\begin{aligned}
+\min_{M} \mathcal{L}(B_l \odot M; D)
+&= \min_{M} \frac{1}{C} \sum_{i=1}^{C} \ell(B_l \odot M; D) \\
+\text{s.t. } &\|M\|_{0} \le L
+\end{aligned}
+\end{equation}
+
 <p align="center">
   <img src="Figures/Figure_2.png" width=90%
     class="center"><br>
