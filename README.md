@@ -28,7 +28,11 @@ pruning ratios.
 
 ## Implementation details
 
-$$\min_{M} \mathcal{L}(B_l \odot M; D)$$
+### Optimization Problem
+
+$$\min_{M} \mathcal{L}(B_l \odot M; D) = \min_{M} \frac{1}{C} \sum_{i=1}^{C} \ell(B_l \odot M; D)$$
+
+### Gardener Pipeline
 
 <p align="center">
   <img src="Figures/Figure_2.png" width=90%
@@ -36,6 +40,8 @@ $$\min_{M} \mathcal{L}(B_l \odot M; D)$$
 </p>
 
 Fig. 2 Architectural diagram of the information entropy-based Block-level Gardener pruning algorithm. Step 1: Visual self-supervised learning; Step 2: Calculating pruning criteria at the Block-level; Step 3: Pruning process of the VideoMAE Encoder Pretrained Model; Step 4: Fine-tuning the Pruned VideoMAE Encoder.
+
+### Depth-Wise Entropy Pattern
 
 <p align="center">
   <img src="Figures/Block_Histograms.png" width=60%
