@@ -51,31 +51,47 @@ Fig. 3 Weight distributions of transformer blocks at different depths in a pretr
     class="center"><br>
 </p>
 
-![Result_on_Block-wise](Figures/Table_1.png)
-
 ### Entropy vs. Sensitivity Ranking
 
-![Result_on_Ranking](Figures/Table_2.png)
+<p align="left">
+  <img src="Figures/Table_2.png" width=30%
+    class="center"><br>
+</p>
 
 ### Multi-Block Pruning
 
-![Result_on_Multi-block](Figures/Table_3.png)
+<p align="left">
+  <img src="Figures/Table_3.png" width=30%
+    class="center"><br>
+</p>
 
 ### Full Block-Wise Pruning
 
-![Result_on_Full Block-wise](Figures/Table_4.png)
+<p align="left">
+  <img src="Figures/Table_4.png" width=30%
+    class="center"><br>
+</p>
 
 ### Full Block-Wise Information Statistical
 
-![Result_on_Information Statistical](Figures/Table_5.png)
+<p align="left">
+  <img src="Figures/Table_5.png" width=30%
+    class="center"><br>
+</p>
 
 ### Full Block-Wise Distribution Statistical
 
-![Result_on_Distribution Statistical](Figures/Table_6.png)
+<p align="left">
+  <img src="Figures/Table_6.png" width=30%
+    class="center"><br>
+</p>
 
 ### Full Multi-Block Pruning
 
-![Result_on_Full Multi-block](Figures/Table_7-12.png)
+<p align="left">
+  <img src="Figures/Table_7-12.png" width=30%
+    class="center"><br>
+</p>
 
 ## Contact 
 
