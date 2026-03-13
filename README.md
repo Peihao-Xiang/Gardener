@@ -31,6 +31,15 @@ pruning ratios.
 ### Optimization Problem
 
 $$\min_{M} \mathcal{L}(B_l \odot M; D) = \min_{M} \frac{1}{C} \sum_{i=1}^{C} \ell(B_l \odot M; D)$$
+$$\text{s.t. } &\|M\|_{0} \le L$$
+
+$$f(B_l) \approx \mathrm{Sens}(B_l) = \frac{\Delta L}{\Delta B_l}$$
+
+### Block-Level Weight-Number Entropy
+
+$$p_l(i) = \frac{n_l(i)}{N_l}$$
+
+$$H'(B_l) = - \sum_i p_l(i)\log p_l(i)$$
 
 ### Gardener Pipeline
 
