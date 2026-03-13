@@ -31,7 +31,7 @@ pruning ratios.
 ### Optimization Problem
 
 $$\min_{M} \mathcal{L}(B_l \odot M; D) = \min_{M} \frac{1}{C} \sum_{i=1}^{C} \ell(B_l \odot M; D)$$
-$$\text{s.t. } &\|M\|_{0} \le L$$
+$$\|M\|_{0} \le L$$
 
 $$f(B_l) \approx \mathrm{Sens}(B_l) = \frac{\Delta L}{\Delta B_l}$$
 
@@ -40,6 +40,16 @@ $$f(B_l) \approx \mathrm{Sens}(B_l) = \frac{\Delta L}{\Delta B_l}$$
 $$p_l(i) = \frac{n_l(i)}{N_l}$$
 
 $$H'(B_l) = - \sum_i p_l(i)\log p_l(i)$$
+
+### Entropy Reflects Importance
+
+$$S(B_l) = \nabla_{B_l} \log \mathcal{L}(B_l;D) = \frac{\partial \log \mathcal{L}}{\partial B_l}$$
+
+$$S(B_l) = \nabla_{H(B_l)} \log \mathcal{L}(B_l;D) = \frac{\partial \log \mathcal{L}}{\partial H(B_l)}$$
+
+$$S(B_l) = \nabla_{H(B_l)} \log \mathcal{L}(B_l;D) \approx H'(B_l)$$
+
+$$Rank(B_l) = \mathrm{Sort}\{H(B_1), \cdots, H(B_L)\}$$
 
 ### Gardener Pipeline
 
