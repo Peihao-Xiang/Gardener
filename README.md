@@ -4,7 +4,7 @@
 > [Peihao Xiang](https://Peihao-Xiang.github.io/), [Kaida Wu](https://scholar.google.com/citations?user=J0ojJOEAAAAJ), and [Ou Bai](https://scholar.google.com/citations?hl=zh-CN&user=S0j4DOoAAAAJ)<br>
 > HCPS Laboratory, Department of Electrical and Computer Engineering, Florida International University<br>
 
-![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=Peihao-Xiang.Label-Ranker)
+![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=Peihao-Xiang.Gardener)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Peihao-Xiang/Gardener/blob/main/Gardener_Multi-Block%20Code/VideoMAE_B_K400_FT_UCF101_RM3B/VideoMAE_B_K400_FT_UCF101_HAR_Reduce%203%20Multi-Block_Entropy.ipynb)
 [![Hugging Face Datasets](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Datasets-blue)](https://huggingface.co/datasets/NoahMartinezXiang/UCF101)
 
