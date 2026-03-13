@@ -28,9 +28,7 @@ pruning ratios.
 
 ## Implementation details
 
-$H$
-
-$$C$$
+$$\min_{M} \mathcal{L}(B_l \odot M; D)$$
 
 <p align="center">
   <img src="Figures/Figure_2.png" width=90%
