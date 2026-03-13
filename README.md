@@ -46,6 +46,11 @@ Fig. 3 Weight distributions of transformer blocks at different depths in a pretr
 
 ### Block-Wise Pruning
 
+<p align="left">
+  <img src="Figures/Table_1.png" width=60%
+    class="center"><br>
+</p>
+
 ![Result_on_Block-wise](Figures/Table_1.png)
 
 ### Entropy vs. Sensitivity Ranking
